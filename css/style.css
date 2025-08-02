@@ -1,0 +1,332 @@
+/* All common css start */
+* {
+  margin: 0;
+  padding: 0px;
+}
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+}
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+ul,
+ol {
+  list-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+  line-height: 0.8;
+}
+.bb {
+  border-bottom: none !important;
+}
+/* All common css end */
+/* header  part start */
+#headerpart {
+  padding: 20px 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+.logomenu {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.menu ul {
+  display: flex;
+  align-items: center;
+}
+.menu ul li a {
+  padding: 0 50px;
+  color: #474747;
+  font-size: 20px;
+  font-weight: 400;
+}
+.menu ul .btn {
+  background: #fd6e0a;
+  padding: 20px 40px;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 700;
+  border-radius: 5px;
+  border: 2px solid #fd6e0a;
+}
+.menu ul .btn:hover {
+  background: transparent;
+  color: #fd6e0a;
+}
+/* header  part end */
+/* banner part start */
+#bannerpart {
+  padding-top: 310px;
+  padding-bottom: 185px;
+  background: url(../images/bannerBg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.bannerText h2 {
+  color: #474747;
+  font-size: 45px;
+  font-weight: 600;
+}
+.bannerText h1 {
+  color: #181818;
+  font-size: 85px;
+  font-weight: 700;
+  padding-top: 45px;
+  padding-bottom: 50px;
+}
+.bannerText p {
+  color: #757575;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  width: 585px;
+}
+.bannerText a {
+  background: #fd6e0a;
+  padding: 20px 25px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  border-radius: 5px;
+  margin-right: 20px;
+  margin-top: 30px;
+  border: 2px solid #fd6e0a;
+}
+.bannerText a:hover {
+  background: transparent;
+  color: #fd6e0a;
+  transition: 0.4s;
+}
+
+/* banner part end */
+/* about part start */
+#aboutPart {
+  padding-top: 80px;
+  padding-bottom: 130px;
+}
+.aboutMe {
+  text-align: center;
+  padding: 130px 155px;
+  background: #fff8f3;
+  border-radius: 10px;
+}
+
+.aboutMe h2 {
+  color: #181818;
+  font-size: 35px;
+  font-weight: 700;
+}
+.aboutMe p {
+  color: #757575;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  padding: 45px 0;
+}
+.contactDetails {
+  display: flex;
+  justify-content: space-between;
+}
+.contactDetails span {
+  color: #757575;
+  font-size: 20px;
+  font-weight: 400;
+}
+.contactDetails strong {
+  color: #474747;
+  font-size: 20px;
+  font-weight: 700;
+}
+/* about part end */
+/* service part start */
+#servicePart {
+  padding-bottom: 130px;
+}
+.serviceHeader {
+  text-align: center;
+}
+.serviceHeader h2 {
+  color: #181818;
+  font-size: 35px;
+  font-weight: 700;
+}
+.serviceHeader p {
+  color: #757575;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  padding: 0 110px;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+.contactCard {
+  display: flex;
+  justify-content: space-between;
+}
+.cardOne {
+  width: 23%;
+  padding: 30px;
+  box-sizing: border-box;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+.cardOne h3 {
+  font-size: 20px;
+  font-weight: 700px;
+  color: #181818;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+.cardOne p {
+  font-size: 16px;
+  font-weight: 400px;
+  color: #757575;
+  line-height: 28px;
+}
+/* service part end */
+
+/* resume part strat */
+#resumePart {
+  padding-bottom: 115px;
+}
+
+.resumeHeader h2 {
+  text-align: center;
+  font-size: 35px;
+  font-weight: 700;
+  color: #181818;
+  padding-bottom: 115px;
+}
+.resumeContent {
+  display: flex;
+  justify-content: space-between;
+}
+.resumeLeft {
+  width: 48%;
+}
+.resumeLeft h3 {
+  color: #181818;
+  font-size: 30px;
+  font-weight: 700;
+}
+.resumeRight {
+  width: 48%;
+}
+.resumeRight h3 {
+  color: #181818;
+  font-size: 30px;
+  font-weight: 700;
+}
+.resumeItem {
+  border-bottom: 2px solid #d1d1d1;
+  padding-bottom: 30px;
+}
+.resumeItem h3 {
+  font-size: 25px;
+  font-weight: 700;
+  color: #474747;
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+.resumeItem h4 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #757575;
+}
+.resumeItem p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #757575;
+  line-height: 28px;
+  padding-top: 20px;
+}
+.resumebtn {
+  text-align: center !important;
+}
+/* resume part end */
+
+/* footer part Start */
+#footerPart {
+  padding: 130px 0;
+  background: #fff8f3;
+}
+.footer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.footerLeft {
+  width: 48%;
+}
+.footerRight {
+  width: 48%;
+}
+.footerLeft h2 {
+  font-size: 35px;
+  font-weight: 700;
+  color: #181818;
+}
+.footerLeft p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #474747;
+  line-height: 28px;
+  padding: 20px 0;
+}
+.footerLeft .social i {
+  color: #fd6e0a;
+  font-size: 20px;
+  margin-right: 20px;
+}
+.footerRight h2 {
+  font-size: 35px;
+  font-weight: 700;
+  color: #181818;
+  padding-bottom: 30px;
+}
+.myInput {
+  display: block;
+  padding: 18px 30px;
+  background: white;
+  border: none;
+  border-radius: 5px;
+  margin: 25px 0;
+  width: 460px;
+  color: #757575;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  font-family: "Open Sans", sans-serif;
+}
+.form button {
+  border: none;
+  background: #fd6e0a;
+  padding: 20px 40px;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 700;
+  border-radius: 5px;
+  border: 2px solid #fd6e0a;
+}
+.form button:hover {
+  background: transparent;
+  color: #fd6e0a;
+}
+/* footer part end */
